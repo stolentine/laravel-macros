@@ -1,0 +1,19 @@
+{
+    "name": "stolentine/macros",
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Stolentine\\Macros\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Stolentine\\Macros\\StolentineMacrosProvider"
+            ]
+        }
+    },
+    "description": "",
+    "type": "library"
+}
